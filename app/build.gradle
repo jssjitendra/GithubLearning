@@ -26,16 +26,18 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_18
+        targetCompatibility JavaVersion.VERSION_18
     }
     kotlinOptions {
-        jvmTarget = '1.8'
+        jvmTarget = '18'
     }
     buildFeatures {
         viewBinding true
     }
 }
+
+//Java and JVM target should be same
 
 dependencies {
 
@@ -73,6 +75,11 @@ dependencies {
     def navigation_version = "2.5.2"
     implementation "androidx.navigation:navigation-fragment-ktx:$navigation_version"
     implementation "androidx.navigation:navigation-ui-ktx:$navigation_version"
+
+    implementation 'com.github.ybq:Android-SpinKit:1.4.0'
+
+
+
 
 
 
