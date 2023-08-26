@@ -18,6 +18,7 @@
     <string name="title_select_image_action">Select Image Action</string>
     <string name="lbl_camera">Camera</string>
     <string name="lbl_gallery">Gallery</string>
+    <string name="conflict">Remote</string>
     <string name="local">Local</string>
 
 
